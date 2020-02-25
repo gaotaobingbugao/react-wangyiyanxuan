@@ -1,0 +1,39 @@
+.Classcontoner{
+    width: 100%;
+    height: 100%;
+}
+.Classcontoner .headetop{
+    padding: 10px;
+    width: 375px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eeeeee;
+    
+}
+.Classcontoner .headetop input {
+    width: 320px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #eeeeee;
+    font-size: 14px;
+    text-align: center;  
+  
+    
+}
+.Classcontoner .contoner{
+    display: flex;
+    overflow: hidden;
+}
+
+.Classcontoner .contoner .left{
+    width: 30%;
+   
+}
+
+.Classcontoner .contoner .right{
+    width: 70%;
+   
+}

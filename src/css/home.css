@@ -1,0 +1,277 @@
+
+
+
+.header{
+    width: 100%;
+    height: 45px;
+    display: flex
+}
+.header h2{
+    font-size: 13px;
+    width: 100px;
+    text-align: center;
+    line-height: 45px;
+    font-family: '宋体';
+    height: 45px;
+    font-weight: 700;
+    
+}
+.header input {
+    width: 200px;
+    height: 28px;
+    background: #eeeeee;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.header span{
+    margin-top: 10px;
+    height: 25px;
+    width: 50px;
+    font-size: 12px;
+    border: 1px solid red;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: red;
+}
+.navList{
+    display:block;
+    white-space:nowrap;
+    width:100%;
+    overflow:auto;
+} 
+.navList ul{
+   width: 100%;
+   height: 100%;
+   
+}
+.navList ul li {
+    text-align: center;
+    line-height: 25px;
+    width:80px;
+    height:25px;
+    margin:3px;
+    display:inline-block;
+    font-size: 14px;
+} 
+.swiper-container .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 200px;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.navs{
+    padding: 0 20px;
+    height: 36px;
+}
+.navs ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+}
+.shopList{
+    padding: 10px 10px; 
+    box-sizing: border-box;
+    height: 160px;
+}
+.shopList ul{
+    width: 100%;
+    height: 100%;
+}
+.shopList ul li {
+    width: 20%;
+    height: 50%;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    
+}
+.shopList ul li span {
+    margin-left: 3px;
+}
+.shopList ul li img{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    
+
+} 
+.logoTop{
+    width: 100%;
+    height: 125px;
+}
+.logoTop img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logoMid{
+    width: 100%;
+    height: 220px;
+}
+ .logoMid .top{
+     height: 80px;
+     border: 8px solid green;
+     border-bottom: none;
+ }
+ .logoMid .top .item{
+     width: 100%;
+     height: 72px;
+     border-bottom: 4px solid green;
+     background: green;
+ }
+ .logoMid .top .item img {
+     width: 100%;
+     height: 100%;
+     border-radius: 5px;
+     display: block;
+ }
+
+ .logoMid .mid {
+     width: 100%;
+     height: 100px;
+     background: green;
+ }
+ .logoMid .mid ul {
+     width: 100%;
+     height: 100%;
+     border-left: 8px solid green;
+     border-right: 8px solid green;
+     box-sizing: border-box;
+ }
+
+ .logoMid .mid ul li {
+     width: 33.3333%;
+     float: left;
+     height: 100%;
+     background: white;
+     border: 2px solid green;
+     border-radius: 5px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     box-sizing: border-box;
+ }
+ .logoMid .mid ul li span{
+     font-size: 12px;
+     margin-top: 2px;
+ }
+ .logoMid .mid ul li .two{
+     font-size: 5px;
+     color: green;
+ }
+ .logoMid .mid ul li img {
+     width: 50px;
+     height: 50px;
+     display: block;
+     
+     margin-left: 25px;
+     margin-top: 10px;
+ }
+
+
+ .logoMid .bottom{
+     height: 45px;
+     width: 100%;
+     background:green;
+ }
+
+ .logoMid .bottom .item{
+     width: 375px;
+     height: 38px;
+     padding: 0 10px;
+     box-sizing: border-box;
+ }
+
+ .logoMid .bottom .item img {
+     width: 100%;
+     height: 100%;
+     display: block;
+ }
+ .newPer{
+     height: 50px;
+     width: 100%;
+     text-align: center;
+     line-height: 50px;
+     font-size: 14px;
+     background: white
+ }
+
+ .newPerson{
+     padding: 0 10px;
+     box-sizing: border-box;
+     height: 165px;
+     width: 100%;
+ }
+
+ .newPerson .left{
+     box-sizing: border-box;
+     float: left;
+     width: 49%;
+     height: 100%;
+     background: #F9E9CF;;
+ }
+ .newPerson .left span{
+     font-size: 14px;
+     margin-left: 10px;
+     margin-top: 10px;
+ }
+ .newPerson .left img{
+     margin-top :30px;
+     margin-left: 25px;
+     width: 100px;
+     height: 100px;
+     display: block;
+ }
+ .newPerson .mid{
+     float: left;
+     width: 2%;
+     height: 100%;
+     background: white
+ }
+ .newPerson .right{
+    float: left;
+    width: 49%;
+    height: 100%;
+    background: yellowgreen;
+}
+.newPerson .right .top{
+    width: 100%;
+    height: 50%;
+    background: #FBE2D3;
+}
+.newPerson .right .top span{
+    display: block;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.newPerson .right .top img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.newPerson .right .bottom{
+    width: 100%;
+    height: 50%;
+    background:#FFECC2
+}
+.henggang{
+    width: 100%;
+    height: 10px;
+    background:#eee;
+    margin-top: 20px;
+}

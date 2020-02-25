@@ -1,0 +1,7 @@
+.rightNav{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    border-right: 2px solid #eeeeee;
+    font-size: 14px;
+}
